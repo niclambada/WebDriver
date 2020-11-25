@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class SeleniumWebDriverTest  extends SeleniumWebDriver {
 
     @BeforeTest
-    public void setup() {
+    public void setUp() {
         initialization();
     }
 
