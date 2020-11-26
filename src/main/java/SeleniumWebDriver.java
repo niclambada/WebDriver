@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-
 public class SeleniumWebDriver {
 
     public static WebDriver driver;
@@ -16,7 +15,6 @@ public class SeleniumWebDriver {
 
     public static void initialization() {
         driver = new ChromeDriver();
-
         driver.get("https://nbalance.by/");
         driver.manage().window().maximize();
 
