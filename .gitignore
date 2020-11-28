@@ -5,3 +5,4 @@
 **/target/
 *.log
 debug.log
+.md
