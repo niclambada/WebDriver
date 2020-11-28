@@ -3,5 +3,5 @@
 **/*.iws
 **/log/
 **/target/
-.gitignore
 *.log
+debug.log
