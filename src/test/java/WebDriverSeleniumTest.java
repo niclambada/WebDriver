@@ -22,8 +22,8 @@ public class WebDriverSeleniumTest extends WebDriverSelenium {
         Assert.assertTrue(sneakersName.getText().contains("New Balance 574 Dark"));
     }
 
-    @AfterClass
-    public void shutdown() {
+    @AfterClass (alwaysRun = true)
+    public void browserTearDown() {
         driver.quit();
     }
 }
