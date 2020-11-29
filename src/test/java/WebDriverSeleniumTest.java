@@ -5,7 +5,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class SeleniumWebDriverTest  extends SeleniumWebDriver {
+public class WebDriverSeleniumTest extends WebDriverSelenium {
 
     @BeforeTest
     public void setUp() {

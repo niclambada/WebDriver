@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class SeleniumWebDriver {
+public class WebDriverSelenium {
 
     public static WebDriver driver;
     public static WebElement searchInput;
