@@ -17,7 +17,6 @@ public class WebDriverSeleniumTest extends WebDriverSelenium {
         WebElement actualSize = driver.findElement(By.xpath("//span[contains(@class, 'swatch-8-5')]"));
         WebElement selectedSize = driver.findElement(By.xpath("//span[contains(@class, 'selected')]"));
         WebElement sneakersName = driver.findElement(By.xpath("//h1[@class = 'product_title entry-title' and text() ='New Balance 574 Dark']"));
-        String txt = sneakersName.getText();
         Assert.assertEquals(actualSize, selectedSize);
         Assert.assertTrue(sneakersName.getText().contains("New Balance 574 Dark"));
     }
